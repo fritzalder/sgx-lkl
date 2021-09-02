@@ -1,3 +1,8 @@
+# Faulty Point Artifact version
+This is a fork of the legacy SGX LKL code with only modifiations that are necessary to keep the [artifact of the Faulty Point Unit paper](https://github.com/fritzalder/faulty-point-unit) working. These changes are not to SGX LKL itself but fix for example broken links etc.
+
+---
+
 [![Build Status](https://travis-ci.org/lsds/sgx-lkl.svg?branch=master)](https://travis-ci.org/lsds/sgx-lkl)
 
 This is the legacy branch of the SGX-LKL repository and is no longer under active development.

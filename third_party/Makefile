@@ -16,7 +16,7 @@ ${CRYPTSETUP_BUILD} ${PROTOBUFC_BUILD}:
 	@mkdir -p $@
 
 ${CRYPTSETUP}:
-	wget -O "${MAKE_ROOT}/cryptsetup.tar.gz" 'https://gitlab.com/cryptsetup/cryptsetup/repository/archive.tar.gz?ref=v2.0.2'
+	wget -O "${MAKE_ROOT}/cryptsetup.tar.gz" 'https://gitlab.com/cryptsetup/cryptsetup/-/archive/v2.0.2/cryptsetup-v2.0.2.tar.gz'
 	mkdir -p $@ && tar -C $@ --strip 1 -xf ${MAKE_ROOT}/cryptsetup.tar.gz
 	rm ${MAKE_ROOT}/cryptsetup.tar.gz
 
